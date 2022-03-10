@@ -20,7 +20,7 @@ export class MessageService {
     };
   }
 
-  createBlocRedirectMessage(text: string, blocks: Array<string>): Message {
+  createBlockRedirectMessage(text: string, blocks: Array<string>): Message {
     return {
       redirect_to_blocks: blocks,
       messages: [

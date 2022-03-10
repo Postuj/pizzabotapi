@@ -87,7 +87,7 @@ export class CartService {
         messages: [{ text: 'Cart is empty 😱' }],
       };
 
-    const msg = this.messageService.createBlocRedirectMessage(
+    const msg = this.messageService.createBlockRedirectMessage(
       `Great 🍾, your order has been successfully submitted. 😍\n\n${cart.getCartCheckoutText()}`,
       ['orderSubmitted'],
     );
