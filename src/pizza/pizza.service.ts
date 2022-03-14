@@ -13,7 +13,7 @@ export class PizzaService {
     private readonly messageService: MessageService,
   ) {}
 
-  cloudFlareUrl = 'https://councils-soc-grew-harvard.trycloudflare.com';
+  cloudFlareUrl = 'https://pizzabotex.herokuapp.com';
 
   pizzas = [
     new Pizza(0, 'Pepperoni', [
